@@ -1,0 +1,83 @@
+.food-card{
+    width:35vw;
+    background-color: #ffffff;
+    border: 1px solid black;
+    margin-top: 4vh;
+    margin-left: 3vw;
+    padding: 10px 20px;
+    box-shadow: 10px 10px 10px #aeaeae;
+    border-radius: 9px;
+    cursor: pointer;
+    display: flex;
+    align-items: start;
+    height: 210px;
+    gap: 25px;
+
+    &:hover{
+     scale: 1.01;
+     transition: 0.4s;
+     box-shadow: 10px 10px 10px #353535;
+    }
+}
+
+.img-div{
+    height:100%;
+    width: 400px;
+    overflow: hidden;
+    border-radius: 4px;
+}
+
+.img-div img{
+    height: 100%;
+    width: 100%;
+    object-fit:cover;
+    border-radius: 4px;
+}
+
+.food-info{
+    display: flex;
+    flex-direction: column;
+}
+
+.food-name {
+    font-size: 1.7em;
+    text-transform: capitalize;
+    font-weight: 900;
+}
+
+.font-desc{
+    font-size: 1em;
+    margin-top: 1vh;
+    font-weight: 600;
+    color: #868484;
+}
+.rating{
+    height: 70px;
+    width: 70px;
+}
+
+.buy-btn{
+  padding: 0.8vh 2vw;
+  background-color: #fcb127e7;
+  width: 150px;
+  font-size: 1.2em;
+  cursor: pointer;
+  border: .1px solid black;
+  font-weight: 600;
+}
+
+@media  screen  and (max-width:480px) {
+    .food-card{
+        width: 75vw;
+        margin: 2vh 0;
+        height: 390px;
+        flex-direction: column;
+    }
+    .img-div{
+        height:40%;
+        width: 90%;
+        overflow: hidden;
+        border-radius: 4px;
+    }
+    
+}

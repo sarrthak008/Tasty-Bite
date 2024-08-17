@@ -1,0 +1,10 @@
+.food-card-container{
+    display: flex;
+    align-items: start;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.food-card-container::-webkit-scrollbar{
+    display: none;
+}
