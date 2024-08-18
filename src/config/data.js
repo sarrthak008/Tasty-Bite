@@ -69,4 +69,10 @@ const ITEAMS = [
   
 const BRAND_NAME = `Tasty-Bite`
 
-  export {ITEAMS,BRAND_NAME}
+const BRAND_SLOGAN =`enjoy the taste `
+
+  export {
+    ITEAMS,
+    BRAND_NAME,
+    BRAND_SLOGAN
+  }
