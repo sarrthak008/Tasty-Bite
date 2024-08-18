@@ -67,4 +67,6 @@ const ITEAMS = [
     }
   ];
   
-  export {ITEAMS}
+const BRAND_NAME = `Tasty-Bite`
+
+  export {ITEAMS,BRAND_NAME}

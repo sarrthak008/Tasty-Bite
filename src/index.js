@@ -4,9 +4,10 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom';
 import Home from './view/Home/Home';
 import './index.css';
 
+import { BrowserRouter ,Routes, Route } from 'react-router-dom';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-
+/*
 const routerHandler = createBrowserRouter([
   {
     path:'/',
@@ -15,4 +16,12 @@ const routerHandler = createBrowserRouter([
 ])
 
 root.render(<RouterProvider router={routerHandler}/>)
+)*/
 
+root.render(
+  <BrowserRouter>
+    <Routes>
+       <Route path='/' element={<Home/>}></Route>
+    </Routes>
+  </BrowserRouter>
+)

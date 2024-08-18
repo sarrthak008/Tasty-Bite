@@ -8,3 +8,27 @@
 .food-card-container::-webkit-scrollbar{
     display: none;
 }
+
+.brand-name{
+    text-align: center;
+    font-size: 4em;
+}
+.slogan-style{
+  width: 100vw;
+  height: 5px;
+  background-color: black;
+  position: relative;
+  margin: 10vh 0;
+}
+.slogan-style span{
+    background-color: orange;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    height: 20px;
+    padding:1vh 5vw;
+    border-radius: 24px;
+    font-size: 1.2em;
+    white-space: nowrap;
+}
